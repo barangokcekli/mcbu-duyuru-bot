@@ -30,7 +30,7 @@ Example:
 ```python
 EMAIL_INFO = {
     "sender_email": "your_email@gmail.com",
-    "sender_password": "your_gmail_password",
+    "sender_password": "your_gmail_app_password",
     "receiver_emails": ["receiver1@example.com", "receiver2@example.com"]
 }
 
