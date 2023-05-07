@@ -29,7 +29,7 @@ URLS = {
 EMAIL_INFO = {
     "sender_email": "baranenglando@gmail.com",
     "sender_password": os.getenv("sender_password"),
-    "receiver_emails": ["baran200167@gmail.com"]
+    "receiver_emails": ["baran200167@gmail.com","barangkcekli@gmail.com"]
 }
 
 # Function that creates email
