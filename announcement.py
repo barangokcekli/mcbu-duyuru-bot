@@ -80,7 +80,7 @@ def check_announcements(url_key):
                     server.login(EMAIL_INFO["sender_email"], EMAIL_INFO["sender_password"])
                     server.sendmail(EMAIL_INFO["sender_email"], EMAIL_INFO["receiver_emails"], email)
                 previous_content = latest_content
-                time.sleep(60)
+                time.sleep(300)
         except Exception as e:
             logging.error(f"{url_key.upper()} sayfasi duyurulari kontrol edilirken hata olustu: {e}")
             time.sleep(60)
